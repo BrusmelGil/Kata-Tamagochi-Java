@@ -1,13 +1,14 @@
 package com.kata;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 
 public class TamagotchiTest {
     
     @Test
-    public void shouldAnswerWithTrue()
+    public void test_example()
     {
         assertTrue( true );
     }
